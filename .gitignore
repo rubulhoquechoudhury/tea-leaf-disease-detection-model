@@ -1,0 +1,17 @@
+# Ignore Python cache and virtual environment folders
+__pycache__/
+.venv/
+venv/
+
+# Ignore model weights and checkpoints
+backend/model/model.pth
+
+# Ignore user uploads
+backend/uploads/
+
+# Ignore data (datasets, images, etc.)
+data/
+
+backend/confusion_matrix.png
+
+backend/evaluation_report.txt
