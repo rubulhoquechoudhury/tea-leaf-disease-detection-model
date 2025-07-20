@@ -61,3 +61,35 @@ python evaluate.py
 ```
 - This will create `confusion_matrix.png` and `evaluation_report.txt` in the `backend` folder.
 
+- Sample dataset Link: https://www.kaggle.com/datasets/shashwatwork/identifying-disease-in-tea-leafs
+
+
+## Steps to Set Up Virtual Environment
+
+### 1. Navigate to your project directory
+```cmd
+cd tea-leaf-disease-detection-model
+```
+
+### 2. Create a virtual environment
+```cmd
+python -m venv venv
+```
+This creates a new virtual environment named "venv" in your project directory.
+
+### 3. Activate the virtual environment
+
+On **Windows**:
+```cmd
+venv\Scripts\activate
+```
+On **macOS/Linux**:
+```bash
+source venv/bin/activate
+```
+
+On Windows, this activates the virtual environment. You'll see `venv` at the beginning of your command prompt.
+- To deactive `venv` use
+```
+deactivate
+```
